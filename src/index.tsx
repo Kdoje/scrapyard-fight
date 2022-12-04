@@ -1,12 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Papa, { ParseResult } from "papaparse"
 import App from './App';
+import units from './units.csv'
 import reportWebVitals from './reportWebVitals';
+
+type Data = {
+  name: string
+  cost: string
+  type: string
+  subtype: string
+  description: string
+  move: string
+  health: string
+  value: string
+  attack: string
+}
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const getCSV = () => {
+  Papa.parse(units, {
+    header: true,
+    download: true,
+    complete: (fileResults: ParseResult<Data>) => {
+      console.log(fileResults.data)
+    },
+  })
+}
+
+getCSV();
+
 root.render(
   <React.StrictMode>
     <App />
