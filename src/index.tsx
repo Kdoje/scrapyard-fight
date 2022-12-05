@@ -5,18 +5,7 @@ import Papa, { ParseResult } from "papaparse"
 import App from './App';
 import units from './units.csv'
 import reportWebVitals from './reportWebVitals';
-
-type Data = {
-  name: string
-  cost: string
-  type: string
-  subtype: string
-  description: string
-  move: string
-  health: string
-  value: string
-  attack: string
-}
+import { UnitCard, UnitCardProps } from './UnitCard';
 
 
 const root = ReactDOM.createRoot(
@@ -27,7 +16,17 @@ const getCSV = () => {
   Papa.parse(units, {
     header: true,
     download: true,
-    complete: (fileResults: ParseResult<Data>) => {
+    complete: (fileResults: ParseResult<UnitCardProps>) => {
+      root.render(
+        <React.StrictMode>
+          <div className="card-grid">
+            {fileResults.data.map(unitData =>
+              <UnitCard {...unitData} />
+            )}
+          </div>
+        </React.StrictMode>
+      );
+
       console.log(fileResults.data)
     },
   })
@@ -35,11 +34,6 @@ const getCSV = () => {
 
 getCSV();
 
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
