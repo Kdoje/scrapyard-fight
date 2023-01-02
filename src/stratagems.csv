@@ -1,1 +1,23 @@
-﻿name,cost,type,sub-type,description,value
+﻿name,cost,type,subtype,description,value
+Il Vaticano,V V,Logistic,,Target two friendly Bishop units in the same row or column. Destroy all units between them,V
+Queen me,2 V,Logistic,,"As an additional cost, sacrifice a unit on your row 5. Deploy a unit from your hand in the sacrificed unit's tile",G
+Protection Detail,1 V,Tactic,,Sacrifice or incinerate a unit with total cost 2 or less. Target unit is invulnerable until the end of this turn,V
+Training Grounds,2 V,Building,,"During your cleanup phase, create a 1A 2H 1M pawn conscript in an adjacent open tile",V
+Power Helix Drill Site,1 V V,Building,,Non-unit ordinance costs 1 more to deploy,1 V
+Desperate Measures,1 V V,Tactic,,"Choose one:
+* Destroy target unit
+* If target unit would die this turn, return it to an available space on your row 1. Otherwise it's scrapped",V
+Rohesia's Command Post,V V V,Building,,"All friendly chess units get +1A, +1M",V
+,,,,,
+Iversen's Etheral Snare,A,Trap,,"Incinerate the unit that entered this square.
+Misfire: Sacrifice 2 units chosen by your opponent ",A
+Angelic Salvo,A,Tactic,,Incinerate unit with total cost 3 or less,A
+Ludvig's Study,A/R A/R,Building,,Before your first deployment add A or R to your resources this turn,
+Ludvig's Trickery,1 R,Tactic,,Destroy target deploying ordinance unless it's owner pays 2,R
+Forced Reconsideration,R R,Tactic,,Destroy target deploying ordinance,G
+,,,,,
+Wildfire,N,Tactic,,Deal 4 damage to target unit,G
+Hamer's Clock Tower,R R R,Building,,"3 R, sacrifice Hamer's clock tower: Take another turn after this one",G
+Wings of Iversen,1 A A,Airdop,Equipment,The equipped unit can move through units and does not take opportunity attacks. The unit must still end its move on an open tile,G
+Survival Instincts,N N,Tactic,,"If target unit dies this turn, return it to the battlefield on your side at the start of the next turn",G
+Coertia's Temple,V V,Building,,3 V + sacrifce a unit: Create a conscript that's a copy of target unit in your graveyard,G

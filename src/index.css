@@ -48,10 +48,12 @@ code {
   font-family: 'Gill Sans MT';
   font-weight: bold;
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   position: relative;
-  left: 28px;
+  left: 25px;
   top: 14px;
+  display: flex;
+  align-items: center;
   text-align: left;
   height: 20px;
 }
@@ -92,15 +94,15 @@ code {
   position: relative;
   font-family: 'Gill Sans MT';
   color: black;
-  font-size: 14px;
+  font-size: 11px;
   width: 170px;
   height: 82px;
   left: 37px;
   top: 191px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
+  text-align: left;
 }
 
 .move-text {
@@ -111,7 +113,7 @@ code {
   font-family: 'Gadugi';
   font-weight: bold;
   font-style: italic;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 1px black;
   color: white;
   font-size: 26px;
   left: 186px;
@@ -129,7 +131,7 @@ code {
   font-family: 'Gadugi';
   font-weight: bold;
   font-style: italic;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 1px black;
   color: white;
   font-size: 26px;
   left: 186px;
@@ -167,7 +169,7 @@ code {
   font-family: 'Gadugi';
   font-weight: bold;
   font-style: italic;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 1px black;
   color: white;
   font-size: 26px;
   left: 13px;
