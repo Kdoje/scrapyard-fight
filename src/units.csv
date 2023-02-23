@@ -17,7 +17,7 @@ Jungle Opportunist,N,Unit,Beast,"Whenever you play non unit ordinance, add a gen
 ,,,,,,,,
 "Iversen, Avenging Angel",3 A A,Unit,Angel Warrior,"During cleanup, if a friendly unit died last turn select one of the following:
 * Deal X damage to Iversen and to target unit or general
-* Heal 3 damage to target unit",5,10,3,G
-"Isak, Wizard of Frost",R R,Unit,Wizard,Act: Target unit has its attack set to 0 until the end of the turn,1,5,1,G
-Rohesia's Bodyguard,2 V,Unit,Knight,All friendly adjacent units have +2 A and heal 2 damage at the end of each turn,2,7,1,G
-Grimclaw Smasher,N N N N N,Unit,Beast,,15,10,2,G
+* Heal 3 damage to target unit",5,10,5,G
+"Isak, Wizard of Frost",R R,Unit,Wizard,Act: Target unit has its attack set to 0 until the end of the turn,1,5,3,G
+Rohesia's Bodyguard,2 V,Unit,Knight,All friendly adjacent units have +2 A and heal 2 damage at the end of each turn,2,7,3,G
+Grimclaw Smasher,N N N N N,Unit,Beast,,15,10,4,G

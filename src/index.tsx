@@ -17,6 +17,7 @@ const getUnits = () => {
       let root = ReactDOM.createRoot(
         document.getElementById('unit-root') as HTMLElement
       );
+      let testRef = React.createRef();
       root.render(
         <React.StrictMode>
           <div className="card-grid">
