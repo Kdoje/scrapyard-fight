@@ -76,6 +76,8 @@ function Board(props: BoardProps) {
     // we define another state variable to track whose turn it is
     let status = "";
 
+    // game status should be updated each time the board is rendered so we make 
+    // it's own function here
     function updateGameStatus(nextSquares: string[]) {
         let winner = calculateWinner(nextSquares);
         if (calculateWinner(nextSquares)) {
@@ -108,8 +110,8 @@ function Board(props: BoardProps) {
     }
 
     // check if someone has won after the latest move and say so
-    // otherwise got to the next move
     updateGameStatus(props.squares);
+    // render the current state of the board
     return (
         
         // this `<>` and `</>` means return a fragment. Because each function can only return one component, we use
