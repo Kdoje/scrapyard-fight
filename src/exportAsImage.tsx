@@ -7,7 +7,7 @@ const exportAsImage = async (el: HTMLElement, imageFileName: string) => {
 
 };
 
-const downloadImage = (blob: any, fileName: any) => {
+const downloadImage = (blob: string, fileName: string) => {
     const fakeLink = window.document.createElement("a");
     fakeLink.style.cssText = "display:none;";
     fakeLink.download = fileName;
