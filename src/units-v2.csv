@@ -1,5 +1,5 @@
 ﻿name,cost,type,subtype,description,attack,health,move,value
-Voracious Ghoul,1 A A,Unit,Geist,Lifsteal (Gain health equal to damage dealt by this unit). Intangible (Can move through enemy units).,2,4,3,A
+Beam Cannon,2 R R,Unit,Artillery,"Vulnerable (deals no defensive damage), Range: 4 (may attack anything in range and sight in the same row or column), Piercing  (deals remaining damage to the anything behind the target)",7,4|2|1,1,R
 Flare Artillery,2 R,Unit,Artillery,"Act, Discard any number of cards: Add charge counters equal to the number of sacrificed or discarded cards.
 As an additional cost to attack, remove 2 charge counters from this unit",8,5|3,2,R
 Frontline Gunner,1 R,Unit,Soldier,Act: Adjacent artillery units get +2 atk until end of turn,1,2,1,R
@@ -9,7 +9,7 @@ Ludvig's Gunner,R R,Unit,Soldier,Ludivg's Gunner's atk is equal to the number of
 Ludvig's Sentry,2R,Unit,Artillery,"Range: 2  (may attack anything in range and sight in the same row or column)
 Act: Stun Ludivg's sentry at the end of this turn, stun any unit attacked by this unit twice",3,2,2,R
 ,,,,,,,,
-Big Guy,2 V,Unit,Human Warrior,"If this unit isn't injured, you may injure it and prevent damage that would be dealt to a unit unit in [*]",3,5|3,2,V
+"Orlak, The Mad King",3 N,Unit,Beast King,"Whenever Orlak attacks, sacrifice target adjacent friendly unit",6,6,4,N
 Orlak's Acolyte,3 N,Unit,Beast,"You may incinerate X cards from your hand to pay X generic resources to deploy this unit. When this unit dies, deal 2 damage to all players",5,3,4,N
 Raging Ape,N,Unit,Beast,"Rampage. If a unit you control is sacrificed, deal 1 damage to any target",1,2,4,N
 Herald of the Jungle,1 N,Unit,Beast,"Rampage. If this unit deals damage to a player, you may play the top card of your damage pile until end of turn",1,2,3,N

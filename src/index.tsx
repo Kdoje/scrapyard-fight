@@ -20,8 +20,8 @@ const getUnits = () => {
         document.getElementById('unit-root') as HTMLElement
       );
       root.render(
-      // pass all this data to the unit card container and render the "get all pngs" once the cards are all rendered
-      <UnitCardContainer cards={fileResults.data} />
+        // pass all this data to the unit card container and render the "get all pngs" once the cards are all rendered
+        <UnitCardContainer cards={fileResults.data} />
       );
     },
   })
