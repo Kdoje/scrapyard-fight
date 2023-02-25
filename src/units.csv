@@ -1,5 +1,5 @@
 ﻿name,cost,type,subtype,description,attack,health,move,value
-Beam Cannon,2 R R,Unit,Artillery,"Vulnerable (deals no defensive damage), Range: 4 (may attack anything in range and sight in the same row or column), Piercing  (deals remaining damage to the anything behind the target)",7,3,1,R
+Beam Cannon,2 R R,Unit,Artillery,"Vulnerable (deals no defensive damage), Range: 4 (may attack anything in range and sight in the same row or column), Piercing  (deals remaining damage to the anything behind the target)",7,4|2|1,1,R
 Flare Artillery,2 R,Unit,Artillery,"Act, Discard any number of cards: Add charge counters equal to the number of sacrificed or discarded cards.
 As an additional cost to attack, remove 2 charge counters from this unit",8,5,1,R
 Frontline Gunner,1 R,Unit,Soldier,Act: Adjacent artillery units get +2 atk until end of turn,1,2,1,R

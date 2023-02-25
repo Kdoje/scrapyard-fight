@@ -24,6 +24,7 @@ code {
 .card-container {
   display: grid;
   grid-template-columns: 1fr;
+  margin: -3px -11px;
 }
 
 .card-image {
@@ -86,6 +87,7 @@ code {
   font-size: 14px;
   left: 32px;
   top: 175px;
+  height: 100px;
 }
 
 .description-text {
@@ -181,7 +183,7 @@ code {
   color: black;
   font-size: 18px;
   left: 191px;
-  top: 217px;
+  top: 218px;
   width: 40px;
   height: 40px;
   text-align: center;
