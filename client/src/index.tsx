@@ -2,14 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Papa, { ParseResult } from "papaparse"
-import units from './units.csv'
-import stratagems from './stratagems.csv'
+import units from './units-v2.csv'
+import stratagems from './stratagems-v2.csv'
 import reportWebVitals from './reportWebVitals';
 import { UnitCard, UnitCardProps } from './UnitCard';
 import { StratagemCard, StratagemCardProps } from './StratagemCard';
 import { UnitCardContainer } from './UnitCardContainer';
+import  openSocket from 'socket.io-client';
+import { Chat } from './Chat';
+
 
 let cardRefs: React.RefObject<HTMLDivElement>[] = [];
+
+const setUpChat = () => {
+  let root = ReactDOM.createRoot(
+    document.getElementById('chat-root') as HTMLElement
+  );
+  root.render(
+    // pass all this data to the unit card container and render the "get all pngs" once the cards are all rendered
+    <Chat socket={openSocket('http://localhost:1337')}/>
+  );
+}
 
 const getUnits = () => {
   Papa.parse(units, {
@@ -48,8 +61,9 @@ const getStratagems = () => {
   })
 }
 
+setUpChat();
 getUnits();
-//getStratagems();
+getStratagems();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

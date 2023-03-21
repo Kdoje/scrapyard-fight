@@ -13,6 +13,9 @@ export type StratagemCardProps = {
 
 export class StratagemCard extends React.Component<StratagemCardProps> {
     render() {
+        if (this.props.name === "") {
+            return <div></div>;
+        }
         let typeLineText = this.props.type;
         if (this.props.subtype && this.props.subtype.length > 0) {
             typeLineText += " - " + this.props.subtype;
