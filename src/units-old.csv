@@ -1,0 +1,23 @@
+﻿name,cost,type,subtype,description,attack,health,move,value
+Voracious Ghoul,1 A A,Unit,Geist,Lifsteal (Gain health equal to damage dealt by this unit). Intangible (Can move through enemy units).,2,4,3,A
+Flare Artillery,2 R,Unit,Artillery,"Act, Discard any number of cards: Add charge counters equal to the number of sacrificed or discarded cards.
+As an additional cost to attack, remove 2 charge counters from this unit",8,5|3,2,R
+Frontline Gunner,1 R,Unit,Soldier,Act: Adjacent artillery units get +2 atk until end of turn,1,2,1,R
+Rattlegeist,1 R,Unit,Spirit,"R, Sacrifice this unit: Incinerate target deploying unit",2,2,3,
+Ludvig's Gunner,R R,Unit,Soldier,Ludivg's Gunner's atk is equal to the number of artillery units you control,*,3,2,R
+"Ludvig, Master Artileryman",2 R,Unit,Soldier,Artillery units behind Ludvig get +1 atk,3,8,0,R
+Ludvig's Sentry,2R,Unit,Artillery,"Range: 2  (may attack anything in range and sight in the same row or column)
+Act: Stun Ludivg's sentry at the end of this turn, stun any unit attacked by this unit twice",3,2,2,R
+,,,,,,,,
+Big Guy,2 V,Unit,Human Warrior,"If this unit isn't injured, you may injure it and prevent damage that would be dealt to a unit unit in [*]",3,5|3,2,V
+Orlak's Acolyte,3 N,Unit,Beast,"You may incinerate X cards from your hand to pay X generic resources to deploy this unit. When this unit dies, deal 2 damage to all players",5,3,4,N
+Raging Ape,N,Unit,Beast,"Rampage. If a unit you control is sacrificed, deal 1 damage to any target",1,2,4,N
+Herald of the Jungle,1 N,Unit,Beast,"Rampage. If this unit deals damage to a player, you may play the top card of your damage pile until end of turn",1,2,3,N
+Jungle Opportunist,N,Unit,Beast,"Whenever you play non unit ordinance, add a generic resource to your pool until end of turn",1,2,2,N
+,,,,,,,,
+"Iversen, Avenging Angel",3 A A,Unit,Angel Warrior,"During cleanup, if a friendly unit died last turn select one of the following:
+* Deal X damage to Iversen and to target unit or general
+* Heal 3 damage to target unit",5,10,5,G
+"Isak, Wizard of Frost",R R,Unit,Wizard,Act: Target unit has its attack set to 0 until the end of the turn,1,5,3,G
+Rohesia's Bodyguard,2 V,Unit,Knight,All friendly adjacent units have +2 A and heal 2 damage at the end of each turn,2,7,3,G
+Grimclaw Smasher,N N N N N,Unit,Beast,,15,10,4,G

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Papa, { ParseResult } from "papaparse"
-import units from './units.csv'
-import stratagems from './stratagems.csv'
+import units from './units-wizard-minions.csv'
+import stratagems from './wizard-minion-stratagems.csv'
 import reportWebVitals from './reportWebVitals';
 import { UnitCard, UnitCardProps } from './UnitCard';
 import { StratagemCard, StratagemCardProps } from './StratagemCard';
@@ -48,7 +48,7 @@ const getStratagems = () => {
   })
 }
 
-getUnits();
+// getUnits();
 getStratagems();
 
 // If you want to start measuring performance in your app, pass a function

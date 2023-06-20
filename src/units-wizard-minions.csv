@@ -1,0 +1,9 @@
+name,cost,type,subtype,description,attack,health,move,value
+Small Gobbo,1,unit,Goblin,,2,2,1,1
+Medium Gobbo,2,unit ,Goblin,Sac an adjacent goblin: Gains indestructible this turn,1,2,1,1
+Small Helper Gobbo,1,Unit,Goblin,"When this unit attacks, one adjacent goblin gets +1/+1 this turn",1,1,1,1
+Big Dumb Gobbo,4,Unit,Goblin,"This unit attacks each combat if able. When this unit attacks, it attacks a random valid tile",5,3,2,1
+Gobbo Recruiter,3,Unit,Goblin,"When this unit attacks, create an adjacent 1/1/1 goblin token",2,1,1,1
+Goblin Thrower,1,Unit,Goblin,"Act:Throw target friendly goblin with range 2, sacrifice the goblin if it lands in the same tile as another unit and deal 3 damage to the unit",0,2,1,1
+Red Wizard,4,Unit ,Wizard,"4, Act, Sac goblins with attack X: Create an X+1/X+1/3 Dragon with flyover adjacent",1,4,1,1
+Grey Wizard,4,,,"4, Act, Sac X nearby goblins, deal X damage to any target",1,4,1,1

@@ -1,0 +1,5 @@
+name,cost,type,subtype,description,value
+Big Club,2,Equip,Goblin,Equipped unit gets +4/0/-1 and takes 1 damage whenever it attacks,1
+Wizard's Tower,3,Environ,Tower,"Traversable. Activated abilities of wizards in this tile cost 2 less to activate. When an occupying friendly unit is destroyed in this tile, destroy this as well",1
+Big Club,2,Equip,Goblin,Equipped unit gets +4/0/-1 and takes 1 damage whenever it attacks,1
+Wizard's Tower,3,Environ,Tower,"Traversable. Activated abilities of wizards in this tile cost 2 less to activate. When an occupying friendly unit is destroyed in this tile, destroy this as well",1
